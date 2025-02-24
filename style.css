@@ -32,11 +32,11 @@ body {
 
 .presentacion-contenido-titulo{
     font-size: 36px;
-    font-family: "Krona One", serif;
+    font-family: "Krona One", sans-serif;
 }
 
 .presentacion-contenido-texto{
-    font-family: "Montserrat", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px; 
     
 }
@@ -45,17 +45,24 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.presentacion-enlaces-subtitulos{
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .presentacion-contenido-link{
-    width: 280px;
-    background-color: #22D4FD;
+    width: 378px;
     text-align: center;
     font-weight: 600;
     font-family: "Montserrat", serif;
     font-size: 24px;
     padding: 21.5px 0;
-    border-radius: 16px;
+    border-radius: 8px;
     text-decoration:none;
-    color: #000000;
+    color: #f6f6f6f6;
+    border: 2px solid #22D4FD;
 }
